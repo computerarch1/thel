@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thel LLC</title>
+<meta name="description" content="Thel LLC is a growth marketing consultancy run by Jonathan Poston: Google Ads, SEO and analytics for small and mid-size brands.">
+<style>
+  :root{
+    --bg:#faf8f4;
+    --ink:#1e2430;
+    --muted:#5c6470;
+    --accent:#1f5c45;
+    --accent-soft:#e7efe9;
+    --line:#e4ded2;
+    --card:#ffffff;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#141822;
+      --ink:#eef0f4;
+      --muted:#9aa3b0;
+      --accent:#7fc7a4;
+      --accent-soft:#1d2b26;
+      --line:#2a3140;
+      --card:#1b2130;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#141822;
+    --ink:#eef0f4;
+    --muted:#9aa3b0;
+    --accent:#7fc7a4;
+    --accent-soft:#1d2b26;
+    --line:#2a3140;
+    --card:#1b2130;
+  }
+  *{box-sizing:border-box;margin:0}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font:17px/1.65 Georgia, 'Times New Roman', serif;
+    padding:0 16px;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:56px 0 72px}
+  header h1{
+    font-size:40px;
+    letter-spacing:.5px;
+    line-height:1.15;
+  }
+  header .tag{
+    color:var(--accent);
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:13px;
+    text-transform:uppercase;
+    letter-spacing:2.5px;
+    margin-bottom:14px;
+  }
+  header p.lede{
+    margin-top:18px;
+    font-size:19px;
+    color:var(--muted);
+  }
+  section{margin-top:52px}
+  h2{
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:var(--accent);
+    border-bottom:1px solid var(--line);
+    padding-bottom:10px;
+    margin-bottom:22px;
+  }
+  .svc{display:grid;gap:18px}
+  .svc div{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:18px 20px;
+  }
+  .svc strong{display:block;margin-bottom:4px}
+  .svc span{color:var(--muted);font-size:16px}
+  ul.results{list-style:none;display:grid;gap:14px}
+  ul.results li{
+    padding-left:22px;
+    position:relative;
+    color:var(--ink);
+  }
+  ul.results li::before{
+    content:"";
+    position:absolute;left:0;top:11px;
+    width:9px;height:9px;border-radius:50%;
+    background:var(--accent);
+  }
+  .how p{margin-bottom:14px}
+  .how em{color:var(--muted)}
+  .contact{
+    background:var(--accent-soft);
+    border-radius:12px;
+    padding:28px;
+  }
+  .contact p{margin-bottom:8px}
+  .contact a{color:var(--accent);font-weight:bold;text-decoration:none}
+  .contact a:hover{text-decoration:underline}
+  footer{
+    margin-top:64px;
+    padding-top:18px;
+    border-top:1px solid var(--line);
+    color:var(--muted);
+    font-size:14px;
+    font-family:'Helvetica Neue', Arial, sans-serif;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="tag">Thel LLC</div>
+    <h1>Growth marketing that pays for itself.</h1>
+    <p class="lede">Thel LLC is the consulting practice of Jonathan Poston. I help small and mid-size brands turn Google Ads, search and analytics into measurable revenue, without the agency overhead.</p>
+  </header>
+
+  <section>
+    <h2>Services</h2>
+    <div class="svc">
+      <div>
+        <strong>Google Ads management</strong>
+        <span>Campaign builds and rebuilds, search term and negative keyword discipline, bid strategy, and lead tracking that counts real inquiries, not page views.</span>
+      </div>
+      <div>
+        <strong>SEO and AI search</strong>
+        <span>Ranking in Google and showing up in ChatGPT and AI Overviews, where a growing share of buying research now happens.</span>
+      </div>
+      <div>
+        <strong>Analytics and CRM</strong>
+        <span>GA4, HubSpot and conversion tracking wired together so every lead traces back to the search and ad that produced it.</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Recent work</h2>
+    <ul class="results">
+      <li>Rebuilt Google Ads for a new-construction condo community: click-through rate up roughly 60% over the prior agency's campaigns, with the first tracked buyer leads arriving within two weeks of relaunch.</li>
+      <li>Local SEO and digital PR for a nonprofit electronics recycler, growing donation pipeline from local search.</li>
+      <li>Ran a head-to-head test of about 100 AI-written articles against human-written ones; human content kept winning in ChatGPT and AI Overviews, and the findings now shape every content plan.</li>
+    </ul>
+  </section>
+
+  <section class="how">
+    <h2>How we work</h2>
+    <p>Most engagements start one of two ways: a <strong>60 to 90 day stopgap</strong> that keeps growth moving while you hire, so your new marketer inherits a working system instead of a blank page, or a <strong>monthly retainer</strong> for ongoing management.</p>
+    <p><em>Clear hours, plain-language weekly reporting, and no markup on ad spend. Your ad accounts stay yours.</em></p>
+  </section>
+
+  <section>
+    <h2>Get in touch</h2>
+    <div class="contact">
+      <p><a href="https://calendly.com/jonathanposton">Book a quick call</a></p>
+      <p>Or email <a href="mailto:wjonpost@gmail.com">wjonpost@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    Thel LLC &middot; North Carolina &middot; Jonathan Poston
+  </footer>
+
+</div>
+</body>
+</html>
