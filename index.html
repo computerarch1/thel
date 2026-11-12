@@ -7,54 +7,49 @@
 <meta name="description" content="Thel LLC is the growth marketing consultancy of Jonathan Poston: Google Ads, SEO, AI search visibility and analytics for small and mid-size brands.">
 <style>
   :root{
-    --bg:#faf8f4;
-    --ink:#1e2430;
-    --muted:#5c6470;
-    --accent:#1f5c45;
-    --accent-soft:#e7efe9;
-    --line:#e4ded2;
-    --card:#ffffff;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg:#141822;
-      --ink:#eef0f4;
-      --muted:#9aa3b0;
-      --accent:#7fc7a4;
-      --accent-soft:#1d2b26;
-      --line:#2a3140;
-      --card:#1b2130;
-    }
-  }
-  :root[data-theme="dark"]{
-    --bg:#141822;
-    --ink:#eef0f4;
-    --muted:#9aa3b0;
-    --accent:#7fc7a4;
-    --accent-soft:#1d2b26;
-    --line:#2a3140;
-    --card:#1b2130;
+    --bg:#0a0a0a;
+    --ink:#f2f2f0;
+    --muted:#9a9a96;
+    --accent:#8fd4ae;
+    --accent-soft:#15211b;
+    --line:#262626;
+    --card:#141414;
   }
   *{box-sizing:border-box;margin:0}
   body{
     background:var(--bg);
     color:var(--ink);
     font:17px/1.65 Georgia, 'Times New Roman', serif;
-    padding:0 16px;
   }
-  .wrap{max-width:680px;margin:0 auto;padding:56px 0 72px}
-  header h1{
-    font-size:40px;
-    letter-spacing:.5px;
-    line-height:1.15;
+  .banner{
+    background:#000;
+    border-bottom:1px solid var(--line);
+    padding:88px 16px 64px;
+    text-align:center;
   }
-  header .tag{
-    color:var(--accent);
-    font-family:'Helvetica Neue', Arial, sans-serif;
-    font-size:13px;
+  .banner .wordmark{
+    color:#fff;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight:700;
+    font-size:clamp(72px, 22vw, 180px);
+    line-height:1;
+    letter-spacing:.08em;
     text-transform:uppercase;
-    letter-spacing:2.5px;
-    margin-bottom:14px;
+  }
+  .banner .sub{
+    margin-top:20px;
+    color:var(--muted);
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:3px;
+  }
+  .page{padding:0 16px}
+  .wrap{max-width:680px;margin:0 auto;padding:48px 0 72px}
+  header h1{
+    font-size:34px;
+    letter-spacing:.5px;
+    line-height:1.2;
   }
   header p.lede{
     margin-top:18px;
@@ -114,10 +109,16 @@
 </style>
 </head>
 <body>
+
+<div class="banner">
+  <div class="wordmark">Thel</div>
+  <div class="sub">Growth Marketing</div>
+</div>
+
+<div class="page">
 <div class="wrap">
 
   <header>
-    <div class="tag">Thel LLC</div>
     <h1>Growth marketing that pays for itself.</h1>
     <p class="lede">Thel LLC is the consulting practice of Jonathan Poston. I help small and mid-size brands turn Google Ads, search and analytics into measurable revenue, without the agency overhead.</p>
   </header>
@@ -166,6 +167,7 @@
     Thel LLC &middot; North Carolina &middot; Jonathan Poston
   </footer>
 
+</div>
 </div>
 </body>
 </html>
